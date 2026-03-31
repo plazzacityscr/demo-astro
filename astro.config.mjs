@@ -3,6 +3,8 @@ import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
+  site: 'https://plazzacityscr.github.io/demo-astro',
+  base: '/demo-astro',
   integrations: [react()],
   vite: { plugins: [tailwindcss()] },
   server: {
