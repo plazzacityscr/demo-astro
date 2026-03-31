@@ -51,10 +51,11 @@ const Navigation = () => {
         href="/"
         className="text-primary flex items-center gap-3 transition-opacity hover:opacity-80"
       >
-        <PawPrint className="h-8 w-8" />
-        <span className="font-heading text-foreground text-2xl font-bold">
-          Purrfectly Zen
-        </span>
+        <img 
+          src="/images/LogoGaia-Horizontal.webp" 
+          alt="Purrfectly Zen Logo" 
+          className="h-10 md:h-20 w-auto"
+        />
       </a>
 
       {/* Desktop Nav */}
